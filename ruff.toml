@@ -1,0 +1,5 @@
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "C", "N"]
+ignore = []
+exclude = ["*/__init__.py", "*/config.py", "*/data/schema.json"]

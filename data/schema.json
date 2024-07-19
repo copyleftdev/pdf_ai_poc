@@ -1,0 +1,10 @@
+{
+    "title": "Example Schema",
+    "type": "object",
+    "properties": {
+        "email": { "type": "string" },
+        "date": { "type": "string" },
+        "phone": { "type": "string" }
+    },
+    "required": ["email", "date", "phone"]
+}
